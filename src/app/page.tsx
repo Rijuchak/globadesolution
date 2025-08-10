@@ -252,6 +252,20 @@ export default function Page() {
 
       {/* Contact */}
       <section id="contact" className="container py-12">
+        <div className="space-y-4">
+  <h4 className="text-lg font-semibold">Contact Information</h4>
+
+  <ul className="space-y-2 text-white/90">
+    <li>📧 Email: <a className="underline hover:text-primary" href="mailto:info@globadesolution.com">info@globadesolution.com</a></li>
+    <li>📍 Address: Sharjah, Media City, SHAMS, UAE 515000</li>
+  </ul>
+
+  <div className="grid grid-cols-2 gap-2 pt-2">
+    <a className="btn btn-primary text-center" href="mailto:info@globadesolution.com">Email Us</a>
+    <a className="btn btn-outline text-center" href="https://maps.google.com/?q=Sharjah, Media City, SHAMS, UAE 515000" target="_blank">View Map</a>
+  </div>
+</div>
+
         <div className="card p-6">
           <div className="grid md:grid-cols-2 gap-6">
             <div className="space-y-4">
@@ -283,7 +297,7 @@ export default function Page() {
 
         <footer className="py-10 mt-12 border-t border-white/10">
           <div className="container text-sm text-white/60 flex flex-col md:flex-row items-center justify-between gap-3">
-            <div>© {new Date().getFullYear()} Globade Solution LLC • Dubai, UAE</div>
+            <div>© {new Date().getFullYear()} Globade Solution LLC • Sharjah, Media City, SHAMS, UAE 515000</div>
             <div className="flex items-center gap-4">
               <Link href="#" className="hover:text-primary">Privacy</Link>
               <Link href="#" className="hover:text-primary">Terms</Link>
