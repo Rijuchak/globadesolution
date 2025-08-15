@@ -52,9 +52,9 @@ export default function Page() {
       {/* Nav */}
       <header className="sticky top-0 z-50 backdrop-blur bg-background/60 border-b border-white/10">
         <div className="container h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3">
+    <div className="flex items-center gap-3">
   <img
-    src="/logo.png"
+    src="https://raw.githubusercontent.com/Rijuchak/globadesolution/main/public/logo.png"
     alt="Globade Solution Logo"
     className="h-10 w-auto"
   />
@@ -65,8 +65,6 @@ export default function Page() {
     <span className="text-xs text-white/60">Trade Intelligence</span>
   </div>
 </div>
-
-
           <nav className="hidden md:flex items-center gap-6 text-sm">
             <a href="#features" className="hover:text-primary">Features</a>
             <a href="#dashboard" className="hover:text-primary">Dashboard</a>
