@@ -54,7 +54,7 @@ export default function Page() {
         <div className="container h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
   <img
-    src="/GLOBADE%20SOLUTION%20logo.png"
+    src="/logo.png"
     alt="Globade Solution Logo"
     className="h-10 w-auto"
   />
@@ -65,6 +65,7 @@ export default function Page() {
     <span className="text-xs text-white/60">Trade Intelligence</span>
   </div>
 </div>
+
 
           <nav className="hidden md:flex items-center gap-6 text-sm">
             <a href="#features" className="hover:text-primary">Features</a>
