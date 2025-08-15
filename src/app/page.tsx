@@ -52,12 +52,19 @@ export default function Page() {
       <header className="sticky top-0 z-50 backdrop-blur bg-background/60 border-b border-white/10">
         <div className="container h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="h-9 w-9 rounded-2xl bg-primary/20 flex items-center justify-center">
-              <Globe className="h-5 w-5" />
-            </div>
-            <span className="font-extrabold text-lg">Globade <span className="text-primary">Solution</span></span>
-            <span className="badge ml-2">Trade Intelligence</span>
-          </div>
+  <img
+    src="/GLOBADE%20SOLUTION%20logo.png"
+    alt="Globade Solution Logo"
+    className="h-10 w-auto"
+  />
+  <div className="flex flex-col leading-tight">
+    <span className="font-extrabold text-lg text-white">
+      Globade <span className="text-primary">Solution</span>
+    </span>
+    <span className="text-xs text-white/60">Trade Intelligence</span>
+  </div>
+</div>
+
           <nav className="hidden md:flex items-center gap-6 text-sm">
             <a href="#features" className="hover:text-primary">Features</a>
             <a href="#dashboard" className="hover:text-primary">Dashboard</a>
